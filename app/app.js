@@ -3,25 +3,28 @@
     window.appversion = '0.1';
     window.online = true;
     window.vbase = '0.2';
-    window.molotov = angular.module('lincscrm', ['mongolabResourceHttp', 'facebook']);
-    window.molotov.config(function(FacebookProvider) {
-        FacebookProvider.init('1501693240076943');
+    window.lincscrm = angular.module('lincscrm', ['mongolabResourceHttp', 'facebook']);
+    window.lincscrm.config(function(FacebookProvider) {
+        /*dev*/
+        // FacebookProvider.init('1501693240076943');
+        /*prod*/
+        FacebookProvider.init('1501692520077015');
     });
-    window.molotov.constant('MONGOLAB_CONFIG', {
+    window.lincscrm.constant('MONGOLAB_CONFIG', {
         API_KEY: 'F1Fk9-FjLLrA4c62rbTuCDmgkGg0sE4A',
         DB_NAME: 'scrmdb'
     });
-    window.molotov.factory('User', function($mongolabResourceHttp) {
+    window.lincscrm.factory('User', function($mongolabResourceHttp) {
         return $mongolabResourceHttp('faceusers');
     });
-    window.molotov.filter('trusted', ['$sce',
+    window.lincscrm.filter('trusted', ['$sce',
         function($sce) {
             return function(url) {
                 return $sce.trustAsResourceUrl(url);
             };
         }
     ]);
-    window.molotov.controller('SCRMController', ['$scope', '$http', 'User', 'Facebook',
+    window.lincscrm.controller('SCRMController', ['$scope', '$http', 'User', 'Facebook',
         function($scope, $http, User, Facebook) {
 
             /*FACEBOOK*/
