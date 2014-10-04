@@ -8,7 +8,7 @@
         /*dev*/
         // FacebookProvider.init('1501693240076943');
         /*prod*/
-        FacebookProvider.init('1501692520077015');
+        FacebookProvider.init('306215239571289');
     });
     window.lincscrm.constant('MONGOLAB_CONFIG', {
         API_KEY: 'F1Fk9-FjLLrA4c62rbTuCDmgkGg0sE4A',
