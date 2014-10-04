@@ -1,0 +1,47 @@
+.highlight { color: #ca5eea }
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #ca5eea;
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #ca5eea;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #ca5eea;
+}
+span.fa.fa-angle-double-right.fa-2x {
+background: #ca5eea;
+}
+.btn-learn {
+    background-color: #a53bc4;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span { opacity: 1 }
+.owl-theme .owl-controls .owl-page span {
+    background: #ca5eea;
+}
+.subscribe-submit {
+    background: #ca5eea;
+}
+section#contact .form-control:focus {
+    border-color: #ca5eea;
+}
+section#contact .text-danger {
+    color: #ca5eea;
+}
+.alert-danger {
+    color: #ca5eea;
+}
+#contact .close {
+    color: #ca5eea;
+}
+.social-icons li a:hover {
+    color: #ca5eea;
+}
+
+.btn-learn:hover,
+.subscribe-submit:hover {
+background-color: #8a2ea5;
+}
