@@ -1,4 +1,4 @@
-lincscrm
+LINC - SCRM
 ========
 
-Projeto de Contribuição do Laboratório de Inteligência Computacional
+Projeto de Contribuição Pública do Laboratório de Inteligência Computacional
